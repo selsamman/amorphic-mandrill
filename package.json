@@ -1,0 +1,23 @@
+{
+    "name": "amrophic-mandrill",
+    "description": "A sendMail module that interfaces with madrill",
+    "homepage": "https://github.com/selsamman/supertype",
+    "version": "0.1.02",
+    "devDependencies": {
+        "q": "1.x",
+        "node-mandrill": "1.x"
+    },
+    "directories": {
+    },
+    "engines": {
+        "node": ">=0.8.0"
+    },
+    "repository": {
+        "type": "git",
+            "url": "git://github.com/selsamman/amrophic-mandrill.git"
+    },
+    "bugs": {
+        "url": "http://github.com/selsamman/amorphic-mandrill/issues"
+    },
+    "optionalDependencies": {}
+}
