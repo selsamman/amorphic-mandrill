@@ -2,7 +2,7 @@
     "name": "amrophic-mandrill",
     "description": "A sendMail module that interfaces with madrill",
     "homepage": "https://github.com/selsamman/supertype",
-    "version": "0.1.02",
+    "version": "1.4.0",
     "devDependencies": {
         "q": "1.x",
         "node-mandrill": "1.x"

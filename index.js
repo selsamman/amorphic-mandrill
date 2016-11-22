@@ -1,6 +1,6 @@
 module.exports.mandrill_mixins = function (objectTemplate, requires, mixinConfig, nconf)
 {
-    var Controller = requires[mixinConfig.controller.require][mixinConfig.controller.template];
+    var Controller = objectTemplate.__dictionary__[mixinConfig.controller.template];
     if (typeof(require) != "undefined") {
         var Q = require('q');
         var mandrillAPI = nconf.get('mandrillAPIKey') ? Q.nbind(require('node-mandrill')(nconf.get('mandrillAPIKey'))) : null;
